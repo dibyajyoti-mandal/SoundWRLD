@@ -19,7 +19,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-slate-100 py-4 px-6 flex justify-between items-center shadow-md shadow-gray-100">
+        <nav className="bg-gray-100 py-4 px-6 flex justify-between items-center shadow-md shadow-gray-100">
             <div className="text-orange-500 font-bold text-2xl flex-1">
                 <Link href="/" className={nunito.className}>SoundWRLD</Link>
             </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 </Link>
 
             </div>
-            <div className='flex-1 justify-end'>
+            <div className='hidden md:flex flex-1 justify-end'>
                 <Link href="/cart" className="text-gray-900 hover:text-orange-500 font-medium hover:font-semibold p-2 flex items-center justify-end">
                     <FaShoppingCart className="mr-2" />
                     Cart
