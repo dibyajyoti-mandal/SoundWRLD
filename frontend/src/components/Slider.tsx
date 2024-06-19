@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const data = [
     {
@@ -39,7 +40,9 @@ const Slider = () => {
                 <h1 className="text-3xl text-center uppercase p-4 md:p-10 md:text-5xl xl:text-6xl">
                     {data[currentSlide].title}
                 </h1>
+                <Link href='/products'>
                 <button className="buttons">Explore</button>
+                </Link>
             </div>
             {/* IMAGE CONTAINER */}
             <div className="w-full flex-1 relative">

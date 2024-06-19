@@ -10,7 +10,7 @@ const Products = () => {
           <Link
             href={`/products/${category.title}`}
             key={category.id}
-            className="w-full h-1/3 bg-cover p-8 md:h-1/2 border drop-shadow-xl"
+            className="w-full h-1/3 bg-cover p-8 md:h-1/2 border hover:shadow-orange-100 shadow-xl"
             style={{ backgroundImage: `url(${category.img})` }}
           >
             <div className={`text-orange-500 w-1/2`}>
