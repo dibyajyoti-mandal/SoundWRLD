@@ -16,5 +16,8 @@
   .nav-menus{
     @apply text-gray-900 hover:text-orange-500 font-medium hover:font-semibold p-2 hover:bg-slate-200 rounded-xl
   }
+  .buttons{
+    @apply bg-orange-500 hover:bg-orange-300 text-white py-4 px-8 mb-4 rounded-lg
+  }
 }
 
