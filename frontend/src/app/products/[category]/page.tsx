@@ -17,7 +17,7 @@ const Category = () => {
           )}
           <div className="flex items-center justify-between font-bold">
             <h1 className="text-2xl p-2">{item.title}</h1>
-            <h2 className=" text-xl mr-2">${item.price}</h2>
+            <h2 className=" text-xl mr-2 text-gray-500">${item.price}</h2>
             <button className="buttons "><IoCartOutline /></button>
           </div>
         </Link>

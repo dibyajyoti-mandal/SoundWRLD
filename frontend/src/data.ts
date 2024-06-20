@@ -51,6 +51,15 @@ export const items: Products = [
     },
 ];
 
+export const item: Product = {
+    id: 4,
+    title: "Beyerdynamic DT 700",
+    desc: "Studio-quality sound for professionals",
+    img: "/cat2.png",
+    price: 279
+
+}
+
 type Category = {
     id: number;
     title: string;
