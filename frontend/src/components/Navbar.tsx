@@ -20,7 +20,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-gray-100 py-4 px-6 flex justify-between items-center shadow-md shadow-gray-100 sticky z-10 ">
+        <nav className="bg-gray-100 py-4 px-6 flex justify-between items-center w-full z-10">
             <div className="text-orange-500 font-bold text-2xl flex-1">
                 <Link href="/" className={nunito.className}>Sound<span className='text-black'>WRLD</span> </Link>
             </div>
